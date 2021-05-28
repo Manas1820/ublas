@@ -14,7 +14,6 @@ target_include_directories(boost_numeric_ublas INTERFACE include)
 
 target_link_libraries(boost_numeric_ublas
   INTERFACE
-    Boost::compute
     Boost::concept_check
     Boost::config
     Boost::core
